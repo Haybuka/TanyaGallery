@@ -23,8 +23,6 @@ header {
     background-repeat: no-repeat;
 }
 
-header nav {}
-
 header li {
     margin: auto 3%;
 }
@@ -82,12 +80,16 @@ header #folio h1 {
     border-radius: 0 !important;
 }
 
-/* 
 #imageGrid img {
-    border-radius: 20px !important;
-}*/
+    animation-name: nav;
+    animation-duration: 2s;
+}
 
-/* 3. footer  */
+#imageGrid img:hover {
+    position: relative;
+    top: -1%;
+}
+
 
 footer {
     background-color: #1D2122;
@@ -160,6 +162,7 @@ footer #mailUnder {
 footer #rightFooter {
     text-align: right;
 }
+
 
 @media screen and (max-width:600px) {
     footer #subsDiv {
