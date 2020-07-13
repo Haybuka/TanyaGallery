@@ -169,6 +169,10 @@ footer #rightFooter {
     text-align: right;
 }
 
+#imageGrid img:nth-of-type(even) {
+    border-radius: 50px;
+}
+
 @media screen and (max-width:600px) {
     footer #subsDiv {
 
@@ -180,12 +184,19 @@ footer #rightFooter {
         text-align: left;
     }
 
-    header {
+    header#head {
         height: 300px;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 1%;
     }
 
     header #folio h1 {
         font-size: 40px;
+    }
+
+    section#imageGrid {
+        padding: 2% !important;
     }
 
     section #row3 {

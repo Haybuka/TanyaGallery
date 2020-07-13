@@ -1,4 +1,5 @@
 let imgs = document.querySelectorAll('#imageGrid img');
+let newImg = document.querySelectorAll('img')
 let newImage = Array.from(imgs);
 console.log(newImage)
 const imgArray = [
