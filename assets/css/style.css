@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style of Content 
+1. Header styles
+   1.1 .navbar styles
+   1.2 id folio styles
+2. Image Grid Section
+   2.1 h3 Style
+3. Footer
+*/
+
+/* 1. header and nav styles */
+header {
+    height: 400px;
+    background-color: #383f3d;
+    color: white;
+    position: relative;
+    /* background: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header nav {}
+
+header li {
+    margin: auto 3%;
+}
+
+header li.text-dark {
+    background-color: #FBD46D !important;
+    color: #000 !important;
+}
+
+header a {
+    color: white !important;
+    font-weight: bold;
+}
+
+#imageGrid .card-img-top:nth-of-type(even) {
+    border-radius: 20px !important;
+}
+
+header h1,
+h3 {
+    font-weight: bold;
+}
+
+header h3 {
+    line-height: 0.8;
+    font-size: 19.6597px;
+    font-weight: 900;
+}
+
+header .navbar {
+    padding-left: .20rem;
+    padding-right: .20rem;
+}
+
+header #folio {
+    position: absolute;
+    bottom: 20%;
+}
+
+header #folio h1 {
+    font-size: 64px;
+}
+
+/* 2. Image Gallery  */
+#imageGrid h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #07031A;
+}
+
+#imageGrid .card-img-top {
+    border-radius: 0 !important;
+}
+
+/* 
+#imageGrid img {
+    border-radius: 20px !important;
+}*/
+
+/* 3. footer  */
+
+footer {
+    background-color: #1D2122;
+    color: #fff;
+}
+
+footer #subsDiv {
+    border-bottom: 1px solid #FBD46D;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .form-control {
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #fff;
+    opacity: 0.5;
+    padding: 0 !important;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    list-style: none;
+    font-family: 'Poppins';
+}
+
+footer li#subscribe {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+footer button {
+    padding: 15px 35px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+footer h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19.6597px;
+    line-height: 0.8;
+
+}
+
+footer .list-group-item {
+    position: relative;
+    display: block;
+    padding: 2% 0;
+    background-color: transparent !important;
+    border: none;
+}
+
+footer #mailUnder {
+    text-decoration: underline;
+}
+
+footer #rightFooter {
+    text-align: right;
+}
+
+@media screen and (max-width:600px) {
+    footer #subsDiv {
+
+        display: block;
+
+    }
+
+    footer #rightFooter {
+        text-align: left;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    header #folio h1 {
+        font-size: 40px;
+    }
+
+    section #row3 {
+        display: none;
+    }
+
+    header #folio {
+        position: absolute;
+        bottom: 5%;
+    }
+
+    header li {
+        margin: 0 !important;
+    }
+
+    #navbarNav {
+        line-height: 1.2;
+    }
+
+    #rightFooter {
+        margin-top: 5%;
+    }
+}
