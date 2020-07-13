@@ -2,13 +2,22 @@
     box-sizing: border-box;
 }
 
-/* Style of Content 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style Content 
 1. Header styles
    1.1 .navbar styles
-   1.2 id folio styles
+   1.2 Header Elements
+   1.3 id folio styles
 2. Image Grid Section
    2.1 h3 Style
+   2.2 Class
+   2.3 Image styles
 3. Footer
+
+4. Media Queries
 */
 
 /* 1. header and nav styles */
