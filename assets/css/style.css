@@ -192,6 +192,10 @@ footer #rightFooter {
         display: none;
     }
 
+    section #row2 {
+        display: none;
+    }
+
     header #folio {
         position: absolute;
         bottom: 5%;

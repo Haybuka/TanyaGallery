@@ -17,6 +17,6 @@ let timed = setInterval(() => {
         if (i === 8) {
             break;
         }
-        newImage[i].src = imgArray[Math.floor(Math.random() * newImage.length)];
+        newImage[i].src = imgArray[Math.floor(Math.random() * imgArray.length)];
     }
 }, 5000);
